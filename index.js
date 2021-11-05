@@ -2,7 +2,6 @@ const express = require("express");
 const cors = require("cors");
 
 const routesV1 = require("./source/routes/v1");
-const { response } = require("express");
 
 const app = express();
 const port = 3001;
