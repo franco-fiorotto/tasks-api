@@ -1,0 +1,11 @@
+PUT http://localhost:3001/v1/task/1
+Content-Type: application/json
+
+{"isDone": true}
+
+###
+
+PUT http://localhost:3001/v1/task/1
+Content-Type: application/json
+
+{}
